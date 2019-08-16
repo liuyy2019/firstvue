@@ -1,0 +1,5 @@
+1.在该vue项目（单页面，其他部分由组件来开发）中，index.html文件值该项目的入口文件。
+2.index。html的div是有src下的main.js来进行Vue对象的绑定。（main.js用来挂载标签，设置组件，路由的声明等）
+3.一个.vue文件就是一个组件，里面包含（template模板，style样式和组件的js代码）
+4.根据components下的HelloWorld组件的模板进行，添加其他的组件文件
+5.App.vue（组件入口）,main.js（声明vue对象）和index.js(路由)等模板文件上改动即可，不添加其他新文件
